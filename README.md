@@ -2,14 +2,14 @@
 "Wallpaper Wizard" is a project designed to automate the process of changing your desktop wallpaper. Utilizing the power of Python, it integrates with the Selenium library to interact with web pages, specifically to generate and download random images from a specified website.
 
 Required Libraries:
--- tkinter - for the GUI.
--- selenium - for web automation.
--- requests - for downloading the image.
--- pywin32 - for interacting with Windows API to set the wallpaper.
+1. tkinter - for the GUI.
+2. selenium - for web automation.
+3. requests - for downloading the image.
+4. pywin32 - for interacting with Windows API to set the wallpaper.
 
 Additional Requirements:
-Download the appropriate version of chromedriver that matches your installed version of Google Chrome.
-Specify the path to the chromedriver executable in your script(line 23)
+1. Download the appropriate version of chromedriver that matches your installed version of Google Chrome.
+2. Specify the path to the chromedriver executable in your script(line 23)
 
 To check the version of Google Chrome you have installed, follow these steps:
 1. Open Google Chrome.
